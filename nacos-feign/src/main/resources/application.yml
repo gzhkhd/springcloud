@@ -1,9 +1,14 @@
 server:
-  port: 9527
+  port: 9529
+
 spring:
   application:
-    name: nacos-provide
+    name: nacos-feign
   cloud:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8858
+feign:
+  hystrix:
+    enable: true
+

@@ -7,6 +7,7 @@
     <modules>
         <module>nacos-provide</module>
         <module>nacos-consumer</module>
+        <module>nacos-feign</module>
     </modules>
 
     <groupId>org.example</groupId>

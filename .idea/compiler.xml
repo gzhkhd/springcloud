@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="nacos-feign" />
         <module name="nacos-provide" />
         <module name="nacos-consumer" />
       </profile>
@@ -15,6 +16,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="nacos-consumer" options="" />
+      <module name="nacos-feign" options="" />
       <module name="nacos-provide" options="" />
     </option>
   </component>
