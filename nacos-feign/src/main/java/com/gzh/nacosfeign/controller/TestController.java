@@ -17,6 +17,7 @@ public class TestController {
 
     @GetMapping("/feign")
     public String test() {
+        //测试冲突提交
         return remoteClient.helloNacos();
     }
 
